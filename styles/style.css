@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.skip-link {
+  display: none;
+}
+
+p, h1 {
+  margin: 0;
+}
+
+.masthead {
+  background-color: black;
+  padding: 30px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-area: masthead;
+}
+
+.masthead .site-title {
+  color: #c96;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.masthead .site-description {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.5em;
+}
+
+.masthead img {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.page-title {
+  background-image: url(https://2017.europe.wordcamp.org/files/2017/01/background-pattern-01.png);
+  background-color: #f5ebe0;
+  font-size: 2.2em;
+  padding: 30px 20px;
+  text-align: center;
+  grid-area: pTitle;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-content {
+  grid-area: mainContent;
+}
+
+.main-content ul {
+  padding: 0 40px;
+}
+
+.main-content ul li {
+  border-bottom: 1px solid;
+  padding: 20px 0px;
+}
+
+.main-content ul li:last-child {
+  border-bottom: unset;
+}
+
+.main-content ul li .talk-time {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: black;
+}
+
+.sidebar ul {
+  color: white;
+}
+
+.sidebar ul li {
+  text-align: center;
+  padding: 30px;
+}
+
+.sidebar ul li h2 {
+  margin: 0;
+}
+
+.sidebar ul .a11y {
+  background: #f1e4d5;
+  color: black;
+}
+
+.sidebar ul .coc {
+  background: #e7ab46;
+}
+
+.sidebar ul .contact {
+  background: #68470d;
+}
+
+.sidebar ul .faq {
+  background: #cc9966;
+}
+
+.colophon {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  font-size: 1.2em;
+  grid-area: colophon;
+}
+/*# sourceMappingURL=style.css.map */
